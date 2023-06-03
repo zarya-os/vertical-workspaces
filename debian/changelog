@@ -1,0 +1,8 @@
+gnome-shell-extension-vertical-workspaces (29zarya.44) lunar; urgency=medium
+
+  * Initial debian packaging:
+    - fork: Change defaults in schema
+    - fork: Rename uuid
+    - fork: Remove prefs.js
+
+ -- Muqtadir <muqtadir5555@gmail.com>  Sat, 03 Jun 2023 18:57:41 +0530

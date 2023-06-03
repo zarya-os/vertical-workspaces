@@ -1,7 +1,7 @@
 {
   "name": "vertical-workspaces",
   "uuid": "vertical-workspaces@zarya.com",
-  "description": "Customize your GNOME Shell UX to suit your workflow, whether you like horizontally or vertically stacked workspaces.",
+  "description": "Fork of V Shell GNOME Shell extension with zarya-session defaults.",
   "shell-version": [
     "42",
     "43",

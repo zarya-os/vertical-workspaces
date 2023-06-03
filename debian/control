@@ -1,0 +1,22 @@
+Source: gnome-shell-extension-vertical-workspaces
+Section: gnome
+Priority: optional
+Maintainer: Muqtadir <muqtadir5555@gmail.com>
+Build-Depends: debhelper (>= 10),
+               libglib2.0-bin,
+Standards-Version: 4.1.1
+Vcs-Git: https://github.com/zarya-os/vertical-workspaces.git -b zarya/lunar
+Vcs-Browser: https://github.com/zarya-os/vertical-workspaces/tree/zarya/lunar
+Homepage: https://github.com/zarya-os/vertical-worksapces/README.md
+
+Package: gnome-shell-extension-vertical-workspaces
+Architecture: all
+Depends: gnome-shell (<< 45~),
+         gnome-shell (>= 40),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Overview extension for switching to vertical layout in zarya's session.
+ .
+ This extension is a modified version of V-Shell with different defaults.
+ V-Shell can be installed to replace it and give more (but unsupported)
+ configuration options.
