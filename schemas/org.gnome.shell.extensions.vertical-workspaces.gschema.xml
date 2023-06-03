@@ -2,7 +2,7 @@
 <schemalist gettext-domain="vertical-workspaces">
   <schema id="org.gnome.shell.extensions.vertical-workspaces" path="/org/gnome/shell/extensions/vertical-workspaces/">
     <key type="i" name="ws-thumbnails-position">
-      <default>0</default>
+      <default>1</default>
     </key>
     <key type="b" name="ws-thumbnails-full">
       <default>false</default>
@@ -14,7 +14,7 @@
       <default>350</default>
     </key>
     <key type="i" name="ws-preview-scale">
-      <default>95</default>
+      <default>100</default>
     </key>
     <key type="i" name="secondary-ws-preview-scale">
       <default>100</default>
@@ -23,7 +23,7 @@
       <default>false</default>
     </key>
     <key type="i" name="dash-position">
-      <default>2</default>
+      <default>4</default>
     </key>
     <key type="i" name="dash-position-adjust">
       <default>0</default>
@@ -32,16 +32,16 @@
       <default>1</default>
     </key>
     <key type="i" name="dash-show-windows-icon">
-      <default>1</default>
+      <default>0</default>
     </key>
     <key type="i" name="dash-show-recent-files-icon">
-      <default>1</default>
+      <default>0</default>
     </key>
     <key type="i" name="wst-position-adjust">
       <default>0</default>
     </key>
     <key type="i" name="show-wst-labels">
-      <default>3</default>
+      <default>0</default>
     </key>
     <key type="b" name="show-wst-labels-on-hover">
       <default>false</default>
@@ -50,28 +50,28 @@
       <default>0</default>
     </key>
     <key type="i" name="close-ws-button-mode">
-      <default>2</default>
+      <default>0</default>
     </key>
     <key type="b" name="center-dash-to-ws">
       <default>false</default>
     </key>
     <key type="b" name="show-search-entry">
-      <default>false</default>
+      <default>true</default>
     </key>
     <key type="b" name="center-search">
       <default>true</default>
     </key>
     <key type="b" name="center-app-grid">
-      <default>false</default>
+      <default>true</default>
     </key>
     <key type="i" name="ws-thumbnail-scale">
-      <default>13</default>
+      <default>8</default>
     </key>
     <key type="i" name="ws-thumbnail-scale-appgrid">
       <default>13</default>
     </key>
     <key type="i" name="secondary-ws-thumbnail-scale">
-      <default>13</default>
+      <default>0</default>
     </key>
     <key type="i" name="dash-max-icon-size">
       <default>48</default>
@@ -95,13 +95,13 @@
       <default>true</default>
     </key>
     <key type="b" name="show-ws-preview-bg">
-      <default>false</default>
+      <default>true</default>
     </key>
     <key type="i" name="ws-preview-bg-radius">
       <default>30</default>
     </key>
     <key type="b" name="show-bg-in-overview">
-      <default>true</default>
+      <default>false</default>
     </key>
     <key type="i" name="overview-bg-blur-sigma">
       <default>0</default>
@@ -140,7 +140,7 @@
       <default>0</default>
     </key>
     <key type="i" name="startup-state">
-      <default>2</default>
+      <default>1</default>
     </key>
     <key type="i" name="overview-mode">
       <default>0</default>
@@ -242,7 +242,7 @@
       <default>1</default>
     </key>
     <key type="i" name="notification-position">
-      <default>2</default>
+      <default>1</default>
     </key>
     <key type="i" name="osd-position">
       <default>6</default>

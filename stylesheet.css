@@ -41,8 +41,6 @@
 
 #dash.vertical .app-well-app-running-dot {
 	margin: 4px 0px;
-	width: 2px;
-	height: 16px;
 }
 
 #dash.vertical .dash-background {
@@ -74,8 +72,6 @@
 
 .app-well-app-running-dot {
 	margin-bottom: 6px;
-	width: 16px;
-	height: 2px;
 }
 
 /* add shadow to the app grid app label to be readable if it overlaps light icon below */
