@@ -1,6 +1,6 @@
 {
-  "name": "V-Shell (Vertical Workspaces)",
-  "uuid": "vertical-workspaces@G-dH.github.com",
+  "name": "vertical-workspaces",
+  "uuid": "vertical-workspaces@zarya.com",
   "description": "Customize your GNOME Shell UX to suit your workflow, whether you like horizontally or vertically stacked workspaces.",
   "shell-version": [
     "42",
@@ -8,7 +8,7 @@
     "44"
   ],
   "session-modes": ["user", "unlock-dialog"],
-  "url": "https://github.com/G-dH/vertical-workspaces",
+  "url": "https://github.com/zarya-os/vertical-workspaces",
   "gettext-domain": "vertical-workspaces",
   "settings-schema": "org.gnome.shell.extensions.vertical-workspaces",
   "version": 29.5

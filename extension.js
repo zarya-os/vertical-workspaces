@@ -635,7 +635,7 @@ function showStatusMessage(show = true) {
         return;
 
     if (!Settings._vShellStatusMessage) {
-        const sm = new Main.RestartMessage(_('Updating V-Shell...'));
+        const sm = new Main.RestartMessage(_('Updating Workspaces layout...'));
         sm.set_style('background-color: rgba(0,0,0,0.3);');
         sm.open();
         Settings._vShellStatusMessage = sm;
